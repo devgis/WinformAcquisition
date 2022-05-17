@@ -1,0 +1,17 @@
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\explorer.exe
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\explorer.pdb
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\FiddlerCore4.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\HtmlAgilityPack.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\Interop.ZCB_APILib.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\log4net.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\Newtonsoft.Json.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\Release\System.Data.SQLite.dll
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\Properties.Resources.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\TobaoHelper.LoginForm.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\TobaoHelper.MainForm.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\TobaoHelper.MozillaDialogNetworkSetting.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\TobaoHelper.Properties.Resources.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\AliTrademanager.csproj.GenerateResource.Cache
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\explorer.exe
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\explorer.pdb
+D:\Work\CSharp\2015\tb17701435\explorer\obj\Release\AliTrademanager.csprojResolveAssemblyReference.cache

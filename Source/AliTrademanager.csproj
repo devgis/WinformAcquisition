@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Administrator\Desktop\程序\AliTrademanager.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F866839C-A171-4E30-830F-255F68081E67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>explorer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\explorer.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\explorer.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>lib\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="FiddlerCore4">
+      <HintPath>lib\FiddlerCore4.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ZCB_APILib">
+      <HintPath>lib\Interop.ZCB_APILib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>lib\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.mshtml" />
+    <Reference Include="log4net">
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TobaoHelper\MaintabControl.cs" />
+    <Compile Include="TobaoHelper\TBJS_TradeRecord.cs" />
+    <Compile Include="TobaoHelper\TBJS_vmTradeRecord.cs" />
+    <Compile Include="TobaoHelper\AlipayManage.cs" />
+    <Compile Include="TobaoHelper\TBJS_TradeTrash.cs" />
+    <Compile Include="TobaoHelper\TBJS_vmTradeTrash.cs" />
+    <Compile Include="TobaoHelper\AlipayTrash.cs" />
+    <Compile Include="TobaoHelper\FiddlerHelper.cs" />
+    <Compile Include="TobaoHelper\WindowWrapper.cs" />
+    <Compile Include="TobaoHelper\FirefoxManage.cs" />
+    <Compile Include="TobaoHelper\MouseMessages.cs" />
+    <Compile Include="TobaoHelper\POINT.cs" />
+    <Compile Include="TobaoHelper\MouseHookStruct.cs" />
+    <Compile Include="TobaoHelper\InterceptMouse.cs" />
+    <Compile Include="TobaoHelper\JsonHelper.cs" />
+    <Compile Include="TobaoHelper\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TobaoHelper\MozillaDialogNetworkSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TobaoHelper\SQLiteHelper.cs" />
+    <Compile Include="TobaoHelper\TBJS_vmMainOrder.cs" />
+    <Compile Include="TobaoHelper\APJS_TradeRecord.cs" />
+    <Compile Include="TobaoHelper\UpdateItemEventArgs.cs" />
+    <Compile Include="TobaoHelper\TBJS_MainOrderComparer.cs" />
+    <Compile Include="TobaoHelper\ListBoughtItems.cs" />
+    <Compile Include="TobaoHelper\ListRecyledtems.cs" />
+    <Compile Include="TobaoHelper\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TobaoHelper\MyTaobaoRemindData.cs" />
+    <Compile Include="TobaoHelper\NoFocusCueButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TobaoHelper\OpenshopNotice.cs" />
+    <Compile Include="TobaoHelper\Program.cs" />
+    <Compile Include="TobaoHelper\TBJS_Rate.cs" />
+    <Compile Include="TobaoHelper\TBJS_Extra.cs" />
+    <Compile Include="TobaoHelper\TBJS_Operation.cs" />
+    <Compile Include="TobaoHelper\TBJS_OrderInfo.cs" />
+    <Compile Include="TobaoHelper\TBJS_StatusInfo.cs" />
+    <Compile Include="TobaoHelper\TBJS_SubOrder.cs" />
+    <Compile Include="TobaoHelper\TBJS_PayInfo.cs" />
+    <Compile Include="TobaoHelper\TBJS_Seller.cs" />
+    <Compile Include="TobaoHelper\TBJS_Page.cs" />
+    <Compile Include="TobaoHelper\TBJS_Query.cs" />
+    <Compile Include="TobaoHelper\TBJS_Tab.cs" />
+    <Compile Include="TobaoHelper\TBJS_MainOrder.cs" />
+    <Compile Include="TobaoHelper\TBJS_Data.cs" />
+    <Compile Include="TobaoHelper\TBJS_UserInfo.cs" />
+    <Compile Include="TobaoHelper\TBLI_LogisticsInfo.cs" />
+    <Compile Include="TobaoHelper\TBLI_Data.cs" />
+    <Compile Include="TobaoHelper\TBLI_ItemForMe.cs" />
+    <Compile Include="TobaoHelper\TBLI_TraceDetail.cs" />
+    <Compile Include="TobaoHelper\TBJS_jsonp23.cs" />
+    <Compile Include="TobaoHelper\TBHelper.cs" />
+    <Compile Include="TobaoHelper\APIUtils.cs" />
+    <Compile Include="TobaoHelper\AdvSettings.cs" />
+    <Compile Include="TobaoHelper\CaptureConfiguration.cs" />
+    <Compile Include="TobaoHelper\TaobaoSQL.cs" />
+    <Compile Include="TobaoHelper\TBJS_vmRate.cs" />
+    <Compile Include="TobaoHelper\UserMyRate.cs" />
+    <Compile Include="TobaoHelper\UserMyTaobao.cs" />
+    <Compile Include="TobaoHelper\Alipay\AP_TradeRecord.cs" />
+    <Compile Include="TobaoHelper\Alipay\AlipayTradeRecord.cs" />
+    <Compile Include="TobaoHelper\Taobao\TBJS_BuyerTradeData.cs" />
+    <Compile Include="TobaoHelper\Taobao\DataBindEventArgs.cs" />
+    <Compile Include="TobaoHelper\Taobao\BuyerTradeManage.cs" />
+    <Compile Include="TobaoHelper\Properties\Resources.cs" />
+    <Compile Include="TobaoHelper\Properties\Settings.cs" />
+    <Compile Include="DotNet4\Utilities\HttpHelper.cs" />
+    <Compile Include="DotNet4\Utilities\HttpItem.cs" />
+    <Compile Include="DotNet4\Utilities\HttpResult.cs" />
+    <Compile Include="DotNet4\Utilities\ResultType.cs" />
+    <Compile Include="DotNet4\Utilities\PostDataType.cs" />
+    <Compile Include="DotNet4\Utilities\ResultCookieType.cs" />
+    <Compile Include="IEProxyManagment\IEProxySetting.cs" />
+    <Compile Include="IEProxyManagment\InternetPerConnOptionList.cs" />
+    <Compile Include="IEProxyManagment\InternetConnectionOption.cs" />
+    <Compile Include="IEProxyManagment\InternetOption.cs" />
+    <Compile Include="IEProxyManagment\PerConnOption.cs" />
+    <Compile Include="IEProxyManagment\PerConnFlags.cs" />
+    <Compile Include="IEProxyManagment\NativeMethods.cs" />
+    <Compile Include="TrandExp\DotNet\Utils\IniFile.cs" />
+    <Compile Include="Trand\Utils\LogHelper.cs" />
+    <Compile Include="Trand\WinAPI\AdditionalMethod.cs" />
+    <Compile Include="Trand\WinAPI\APIMethod.cs" />
+    <Compile Include="Trand\WinAPI\BY_HANDLE_FILE_INFORMATION.cs" />
+    <Compile Include="Trand\WinAPI\CallBack.cs" />
+    <Compile Include="Trand\WinAPI\CHOOSECOLOR.cs" />
+    <Compile Include="Trand\WinAPI\CHOOSEFONT.cs" />
+    <Compile Include="Trand\WinAPI\COMBOBOXINFO.cs" />
+    <Compile Include="Trand\WinAPI\CommonConst.cs" />
+    <Compile Include="Trand\WinAPI\ControlPanel.cs" />
+    <Compile Include="Trand\WinAPI\COPYDATASTRUCT.cs" />
+    <Compile Include="Trand\WinAPI\CPUInformation.cs" />
+    <Compile Include="Trand\WinAPI\DataBaseManage.cs" />
+    <Compile Include="Trand\WinAPI\DataGridViewPrint.cs" />
+    <Compile Include="Trand\WinAPI\DEVMODE.cs" />
+    <Compile Include="Trand\WinAPI\DirectoryFileManager.cs" />
+    <Compile Include="Trand\WinAPI\DisplaySettings.cs" />
+    <Compile Include="Trand\WinAPI\DISPLAY_DEVICE.cs" />
+    <Compile Include="Trand\WinAPI\DMDO.cs" />
+    <Compile Include="Trand\WinAPI\DrawGraph.cs" />
+    <Compile Include="Trand\WinAPI\DRAWTEXTPARAMS.cs" />
+    <Compile Include="Trand\WinAPI\FINDREPLACE.cs" />
+    <Compile Include="Trand\WinAPI\FLASHWINFO.cs" />
+    <Compile Include="Trand\WinAPI\FRHookProc.cs" />
+    <Compile Include="Trand\WinAPI\HARDWAREINPUT.cs" />
+    <Compile Include="Trand\WinAPI\ICONINFO.cs" />
+    <Compile Include="Trand\WinAPI\INPUT.cs" />
+    <Compile Include="Trand\WinAPI\INTERNET_CACHE_ENTRY_INFO.cs" />
+    <Compile Include="Trand\WinAPI\KEYBDINPUT.cs" />
+    <Compile Include="Trand\WinAPI\LOGFONT.cs" />
+    <Compile Include="Trand\WinAPI\MemoryInformation.cs" />
+    <Compile Include="Trand\WinAPI\MEMORYSTATUS.cs" />
+    <Compile Include="Trand\WinAPI\MENUINFO.cs" />
+    <Compile Include="Trand\WinAPI\MENUITEMINFO.cs" />
+    <Compile Include="Trand\WinAPI\MODULEENTRY32.cs" />
+    <Compile Include="Trand\WinAPI\MODULEINFO.cs" />
+    <Compile Include="Trand\WinAPI\MONITORINFO.cs" />
+    <Compile Include="Trand\WinAPI\MONITORINFOEX.cs" />
+    <Compile Include="Trand\WinAPI\MouseEventFlag.cs" />
+    <Compile Include="Trand\WinAPI\MOUSEINPUT.cs" />
+    <Compile Include="Trand\WinAPI\MSG.cs" />
+    <Compile Include="Trand\WinAPI\NativeInvokeMethods.cs" />
+    <Compile Include="Trand\WinAPI\NOTIFYICONDATA.cs" />
+    <Compile Include="Trand\WinAPI\OFSTRUCT.cs" />
+    <Compile Include="Trand\WinAPI\OPENFILENAME.cs" />
+    <Compile Include="Trand\WinAPI\OSVERSIONINFO.cs" />
+    <Compile Include="Trand\WinAPI\OSVERSIONINFOEX.cs" />
+    <Compile Include="Trand\WinAPI\PROCESSENTRY32.cs" />
+    <Compile Include="Trand\WinAPI\ProcessInfo.cs" />
+    <Compile Include="Trand\WinAPI\PROCESS_INFORMATION.cs" />
+    <Compile Include="Trand\WinAPI\RECT.cs" />
+    <Compile Include="Trand\WinAPI\RegeditManageMent.cs" />
+    <Compile Include="Trand\WinAPI\SCROLLINFO.cs" />
+    <Compile Include="Trand\WinAPI\SECURITY_ATTRIBUTES.cs" />
+    <Compile Include="Trand\WinAPI\ServiceEnumInfo.cs" />
+    <Compile Include="Trand\WinAPI\SHELLEXECUTEINFO.cs" />
+    <Compile Include="Trand\WinAPI\SHFILEINFO.cs" />
+    <Compile Include="Trand\WinAPI\STARTUPINFO.cs" />
+    <Compile Include="Trand\WinAPI\SYSTEMTIME.cs" />
+    <Compile Include="Trand\WinAPI\SYSTEM_INFO.cs" />
+    <Compile Include="Trand\WinAPI\TernaryRasterOperations.cs" />
+    <Compile Include="Trand\WinAPI\TIME_ZONE_INFORMATION.cs" />
+    <Compile Include="Trand\WinAPI\TokPriv1Luid.cs" />
+    <Compile Include="Trand\WinAPI\TStringList.cs" />
+    <Compile Include="Trand\WinAPI\WIN32_FIND_DATA.cs" />
+    <Compile Include="Trand\WinAPI\WindowInfo.cs" />
+    <Compile Include="Trand\WinAPI\1WINDOWINFO.cs" />
+    <Compile Include="Trand\WinAPI\WINDOWPLACEMENT.cs" />
+    <Compile Include="Trand\WinAPI\WindowsAPI.cs" />
+    <Compile Include="Trand\WinAPI\WinExit.cs" />
+    <Compile Include="Trand\WinAPI\WNDCLASS.cs" />
+    <Compile Include="Trand\WinAPI\WndProc.cs" />
+    <Compile Include="Trand\WinAPI\1WNDPROC.cs" />
+    <Compile Include="Trand\WinAPI\XMLUsage.cs" />
+    <Compile Include="Trand\WinAPI\_FILETIME.cs" />
+    <Compile Include="Trand\WinAPI\_SHFILEOPSTRUCT.cs" />
+    <Compile Include="Trand\WinApi\KeyModifiers.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TobaoHelper\LoginForm.resx" />
+    <EmbeddedResource Include="TobaoHelper\MainForm.resx" />
+    <EmbeddedResource Include="TobaoHelper\MozillaDialogNetworkSetting.resx" />
+    <EmbeddedResource Include="TobaoHelper\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

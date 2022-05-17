@@ -1,0 +1,7 @@
+﻿<div id="J-trash-empty" class="trash-is-empty">
+	<img class="ico-trash" src="https://i.alipayobjects.com/e/201203/2O1dT1RFCL.jpg" alt="没有找到记录" seed="JTrashEmpty-icoTrash" smartracker="on">
+	<div class="trash-text">
+		没有找到记录<br>
+		<a href="https://consumeprod.alipay.com:443/record/index.htm" seed="trashText-link" smartracker="on">查看交易记录</a>
+	</div>
+</div>

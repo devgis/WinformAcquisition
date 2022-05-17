@@ -1,0 +1,16 @@
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\explorer.exe
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\explorer.pdb
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\FiddlerCore4.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\HtmlAgilityPack.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\Interop.ZCB_APILib.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\log4net.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\Newtonsoft.Json.dll
+D:\Work\CSharp\2015\tb17701435\explorer\bin\x86\Debug\System.Data.SQLite.dll
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\Properties.Resources.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\TobaoHelper.LoginForm.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\TobaoHelper.MainForm.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\TobaoHelper.MozillaDialogNetworkSetting.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\TobaoHelper.Properties.Resources.resources
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\AliTrademanager.csproj.GenerateResource.Cache
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\explorer.exe
+D:\Work\CSharp\2015\tb17701435\explorer\obj\x86\Debug\explorer.pdb
